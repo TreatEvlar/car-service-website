@@ -1,0 +1,675 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* navbar-section start */
+
+.navbar{
+    background-color: rgb(46, 46, 46);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    align-items: center;
+    gap: 40px;
+    padding: 22px 0;
+}
+
+.navbar ul :nth-child(1){
+    color: rgb(178, 178, 178);
+}
+
+.navbar ul li{
+    font-weight: 100;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.navbar ul li:hover{
+    color: rgb(178, 178, 178);
+}
+
+.navbar ul .icon{
+    display: none;
+}
+
+.navbar ul .mininav-close{
+    display: none;
+}
+
+.navbar .icon{
+    display: flex;
+    gap: 10px;
+}
+
+.navbar .icon i{
+    display: flex;
+    font-size: 24px;
+    color: white;
+}
+
+.navbar .icon p{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.navbar .icon p:hover{
+    color: rgb(178, 178, 178);
+}
+
+.navbar .icons{
+    display: none;
+}
+
+.navbar .mininav{
+    font-size: 20px;
+    display: none;
+}
+
+/* navbar-section end */
+
+/* hero-section start */
+
+.hero-section{
+    width: 100%;
+    height: 140vh;
+    background-image: url(./images/4552-3840x2160-desktop-4k-bugatti-wallpaper-image.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.txt{
+    margin-top: 60px;
+}
+
+.txt img {
+    max-width: 150px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.txt h1{
+    font-size: 44px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.txt p{
+    letter-spacing: 4px;
+    color: white;
+}
+
+.container .icons i{
+    color: white;
+    font-size: 35px;
+    letter-spacing: 10px;
+    margin-top: 550px;
+}
+
+/* hero-section end */
+
+/* service-section start */
+
+.service{
+    background-color: rgb(21, 21, 21);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.service h2{
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+    font-weight: 100;
+}
+
+.service hr{
+    width: 50px;
+    height: 3px;
+    background-color: white;
+    margin: 30px 0;
+    margin-bottom: 50px;
+}
+
+.service .txt-icon{
+    display: flex;
+    gap: 100px;
+}
+
+.service .txt-icon :nth-child(1){
+    margin-left: 5px;
+}
+
+.service .txt-icon .card h1{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 100;
+    margin: 10px 0;
+}
+
+.service .txt-icon .card p{
+    color: white;
+    text-align: center;
+    line-height: 25px;
+}
+
+/* service-section end */
+
+/* work-section start */
+
+.work{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 150vh;
+}
+
+.work h1{
+    margin-top: 100px;
+    font-weight: 100;
+}
+
+.work hr{
+    width: 5%;
+    height: 4px;
+    background-color: black;
+    margin: 20px 0;
+}
+
+.work .para{
+    letter-spacing: 2px;
+}
+
+.work .work-child{
+    width: 85%;
+    height: 100vh;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.work .work-child .box{
+    width: 430px;
+    height: 350px;
+}
+
+.work .work-child .box img{
+    width: 430px;
+    height: 350px;
+    background-size: cover;
+    position: absolute;
+    transition: all 0.8s ease-in-out;
+}
+
+.work .work-child .box h2{
+    color: white;
+    position: relative;
+    text-align: center;
+    margin-top: 150px;
+    font-weight: 100;
+    display: none;
+}
+
+.work .work-child .box p{
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    display: none;
+}
+
+.work .work-child .box .icon{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 40px;
+}
+
+.work .work-child .box .icon i{
+    color: white;
+    position: relative;
+    display: none;
+}
+
+.work .work-child .box:hover img{
+    filter: brightness(80%);
+}
+
+.work .work-child .box:hover h2{
+    display: block;
+}
+
+.work .work-child .box:hover p{
+    display: block;
+}
+
+.work .work-child .box:hover .icon i{
+    display: block;
+}
+
+/* work-section end */
+
+/* about-us section start */
+
+.about-us{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./images/blue-background-7470781_1280.jpg);
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-us .container{
+    width:45%;
+    height: 70vh;
+    background-color: white;
+}
+
+.about-us .container hr{
+    width: 10%;
+    height: 3px;
+    background-color: black;
+    margin: 30px 0;
+}
+
+.about-us .container p{
+    margin: 0 100px;
+    line-height: 25px;
+}
+
+/* about-us section end */
+
+/* last-image section start */
+
+.last-image{
+    width: 100%;
+    height: 80vh;
+    background-image: url(./images/romantic-couple-sitting-pier-golden-sunset-stroking-dog-beautiful-nature-lake-man-woman-meet-sunset-beautiful-couple-outdoors-n-84280091.webp);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* last-image section end */
+
+/* contact section start */
+
+.contact{
+    width: 100%;
+    height: 170vh;
+    background-image: url(./images/blue-background-7470781_1280.jpg);
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+}
+
+.contact img{
+    width: 400px;
+    height: 400px;
+    margin: 0 200px;
+}
+
+.contact .contact-form-heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+}
+
+.contact .contact-form-heading h1{
+    padding-top: 40px;
+    font-weight: 100;
+}
+
+.contact .contact-form-heading hr{
+    width: 10%;
+    height: 4px;
+    background-color: black;
+    margin: 25px 0;
+}
+
+.contact-form-heading .contact-form{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-bottom: 50px;
+}
+
+.contact-form .form-details ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact-form .form-details ul li input{
+    width: 270px;
+    height: 40px;
+}
+
+.contact-form .form-details ul li #inputBig{
+    width: 270px;
+    height: 100px;
+}
+
+.contact-form .form-details ul li button{
+    padding: 10px 110px;
+    font-size: 16px;
+    color: white;
+    background-color: black;
+    transition: all 0.2s ease-in;
+}
+
+.contact-form .form-details ul li button:hover{
+    background-color: rgb(113, 113, 113);
+}
+
+/* contact section end */
+
+/* footer section start */
+
+.footer{
+    width: 100%;
+    height: 20vh;
+    background-color: rgb(46, 46, 46);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer .icon{
+    display: flex;
+    gap: 10px;
+    margin-top: 35px;
+}
+
+.footer .icon i{
+    font-size: 30px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.footer h1{
+    font-size: 14px;
+    color: white;
+}
+
+/* footer section end */
+
+/* responsive screen */
+
+@media screen and (max-width: 768px) {
+
+    /* navbar-section start */
+
+    .navbar{
+        justify-content: right;
+    }
+
+    .navbar ul{
+        flex-direction: column;
+        position: absolute;
+        background-color: rgb(46, 46, 46);
+        top: 0;
+        width: 100%;
+        height: 60vh;
+        right: 100%;
+        transition: all 0.2s ease-in-out;
+    }
+
+    .navbar ul.active{
+        position: absolute;
+        right: 0;
+    }
+
+    .navbar ul .icon{
+        display: flex;
+        color: white;
+    }
+
+    .navbar .icons{
+        display: block;
+    }
+
+    .navbar .icon{
+        display: none;
+    }
+
+    .navbar .mininav{
+        display: flex;
+        margin: 30px 40px;
+    }
+
+    .navbar ul .mininav-close{
+        position: absolute;
+        display: block;
+        top: 0;
+        right: 0;
+        margin: 20px 40px;
+        font-size: 30px;
+    }
+
+    .navbar ul .mininav-close i{
+        color: white;
+    }
+
+    .navbar ul .icons{
+        display: flex;
+        gap: 10px;
+    }
+
+    .navbar ul .icons i{
+        font-size: 30px;
+        color: white;
+    }
+
+    /* navbar-section end */
+
+    /* hero-section start */
+
+    .hero-section{
+        height: 60vh;
+    }
+
+    .hero-section .container .icons{
+        display: none;
+    }
+
+    /* hero-section end */
+
+    /* service-section start */
+
+    .service{
+        height: 160vh;
+    }
+
+    .service .txt-icon{
+        flex-direction: column;
+    }
+
+    /* service-section end */
+
+    /* work-section start */
+
+    .work{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 150vh;
+    }
+    
+    .work h1{
+        margin-top: 100px;
+        font-weight: 100;
+    }
+    
+    .work hr{
+        width: 10%;
+        height: 4px;
+        background-color: black;
+        margin: 20px 0;
+    }
+    
+    .work .para{
+        text-align: center;
+        letter-spacing: 2px;
+        margin: 0 20px;
+        font-size: 20px;
+    }
+    
+    .work .work-child{
+        width: 100%;
+        height: 100vh;
+        margin-top: 50px;
+        display: flex;
+        background-color: blueviolet;
+        flex-wrap: wrap;
+        
+    }
+    
+    .work .work-child .box{
+        width: 100%;
+        height: 350px;
+    }
+    
+    .work .work-child .box img{
+        width: 100%;
+        height: 350px;
+        background-size: cover;
+        position: absolute;
+        transition: all 0.8s ease-in-out;
+    }
+
+    /* work-section end */
+
+    /* about-us section start */
+
+    .about-us{
+        width: 100%;
+        height: 100vh;
+        background-image: url(./images/4.webp);
+        background-attachment: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1150px;
+        position: relative;
+    }
+    
+    .about-us .container{
+        width: 90%;
+        height: 70vh;
+        background-color: white;
+    }
+    
+    .about-us .container hr{
+        width: 10%;
+        height: 3px;
+        background-color: black;
+        margin: 30px 0;
+    }
+    
+    .about-us .container p{
+        margin: 0 10px;
+        line-height: 25px;
+        font-size: 18px;
+    }
+
+    /* about-us section end */
+
+    /* last-image section start */
+
+    .last-image{
+        width: 100%;
+        height: 40vh;
+        background-image: url(./images/romantic-couple-sitting-pier-golden-sunset-stroking-dog-beautiful-nature-lake-man-woman-meet-sunset-beautiful-couple-outdoors-n-84280091.webp);
+        background-attachment:scroll;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    /* last-image section end */
+
+    /* contact section start */
+
+    .contact{
+        width: 100%;
+        height: 180vh;
+    }
+    .contact .contact-info{
+        width: 100%;
+    }
+    .contact img{
+        width: 100%;
+        margin: 0;
+    }
+
+    .contact-form{
+        flex-direction: column;
+    }
+
+    .contact-form .form-details{
+        width: 100%;
+    }
+
+    .contact-form .form-details ul li input{
+        border: 1px solid black;
+    }
+
+    .contact .contact-form-heading{
+        width: 90%;
+        margin-left: 20px;
+    }
+
+    /* contact section end */
+
+    /* footer section start */
+
+    .footer{
+        height: 15vh;
+    }
+    .footer .icon{
+        display: none;
+    }
+
+    .footer h1{
+        font-size: 18px;
+        margin: 0 60px;
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    /* footer section end */
+
+}
