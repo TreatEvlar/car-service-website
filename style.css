@@ -225,6 +225,7 @@
     background-size: cover;
     position: absolute;
     transition: all 0.8s ease-in-out;
+    object-fit: cover;
 }
 
 .work .work-child .box h2{
@@ -335,6 +336,7 @@
     width: 400px;
     height: 400px;
     margin: 0 200px;
+    object-fit: cover;
 }
 
 .contact .contact-form-heading{
